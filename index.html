@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>YouTube Uploader</title><style>body{font:16px/1.65 -apple-system,system-ui,sans-serif;max-width:760px;margin:0 auto;padding:32px 16px;color:#1d1d1f;background:#fff}h1{font-size:28px}h2{font-size:20px;margin-top:28px}nav a{margin-right:16px}footer{margin-top:40px;font-size:14px;color:#666;border-top:1px solid #ddd;padding-top:12px}code{background:#f2f2f2;padding:1px 4px}</style></head><body><nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<h1>YouTube Uploader</h1>
+<p>YouTube Uploader is a private, single-user command-line tool. Its only user is the operator, SEONGGYU KIM, who uses it to upload self-produced videos to the operator's own YouTube channel.</p>
+<h2>What it does</h2>
+<ul>
+<li>Uploads a finished video file from the operator's computer to the operator's own channel (<code>videos.insert</code>).</li>
+<li>Sets the title, description, tags, and privacy status, and uploads the custom thumbnail (<code>thumbnails.set</code>).</li>
+</ul>
+<h2>What it does not do</h2>
+<ul>
+<li>It is not offered to other people. It has no sign-up, no web service, and no other users.</li>
+<li>It does not read, collect, or analyze other channels' data, comments, or viewers.</li>
+<li>It does not download YouTube content and does not use the API for search or scraping.</li>
+</ul>
+<h2>How it works</h2>
+<p>The operator renders a video on a Mac, then runs the tool from the terminal. On first use, Google's OAuth consent screen asks the operator to authorize the operator's own YouTube account. The tool keeps the resulting token in a local file on that Mac and uses it only to upload and update the operator's own videos.</p>
+<p>This tool uses YouTube API Services. See the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+<footer>YouTube Uploader is operated by SEONGGYU KIM (individual). Contact: <a href="mailto:dev.seonggyu96@gmail.com">dev.seonggyu96@gmail.com</a>. This tool uses YouTube API Services.</footer></body></html>
